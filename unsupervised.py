@@ -13,7 +13,7 @@ import earthpy.plot as ep
 import rasterio as rio
 
 
-path = 'data1/'
+path = 'data/LC08_L2SP_204025_20230904_20230912_02_T1/'
 complete_dataset = os.listdir(path)
 complete_dataset = [path + x for x in complete_dataset]
 print(complete_dataset)
